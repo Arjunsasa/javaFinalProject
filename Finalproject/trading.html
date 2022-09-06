@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesTrading.css">
+</head>
+<body>
+<!-- Nav Bar -->     
+<nav class="navbar sticky-top navbar-expand-lg navbar-light topbar">
+  <div class="container-fluid">
+    <a class="navbar-brand nav-link" href="index.html" id="main">Arjun</a><div class="navName"><h3>WebDev</h3></div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" href="trading.html">Trading</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="contact.html">Contact me</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--trading strat cards-->
+<div class="tradingheader ">
+  <h2 class="topspace">Trading strategies</h2>
+  <p>Guide to Options trading</p>
+  <hr class="lineb">
+</div>
+<div class="row trow">
+  <div class="col-lg-4 col-md-12 col-sm-12 outer-column">
+    <div class="card mb-4 rounded-3">
+        <div class="card-header">
+          <h3>Basics of Options</h3>
+        </div>
+        <div class="card-body">
+          <img class="obasic" src="images/options.jpg" alt="options-img">
+          <p class="toppara">Options are a form of derivative contract that gives buyers of the contracts (the option holders) the right (but not the obligation) to buy or sell a security at a chosen price at some point in the future. Option buyers are charged an amount called a premium by the sellers for such a right.</p>
+          <p>Option buyers are charged an amount called a premium by the sellers for such a right. Should market prices be unfavorable for option holders, they will let the option expire worthless and not exercise this right, ensuring that potential losses are not higher than the premium.</p>
+          <p>On the other hand, if the market moves in the direction that makes this right more valuable, it makes use of it.</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12 outer-column">
+      <div class="card mb-4 rounded-3">
+        <div class="card-header">
+          <h3>Buy Call option (long)</h3>
+        </div>
+        <div class="card-body">
+          <img class="obasic" src="images/Long-Call-Option.png" alt="options-img">
+          <hr>
+          <p class="toppara">There are some advantages to trading options for those looking to make a directional bet in the market. If you think the price of an asset will rise, you can buy a call option using less capital than the asset itself.</p>
+          <p>At the same time, if the price instead falls, your losses are limited to the premium paid for the options and no more.The trader's potential loss from a long call is limited to the premium paid.</p>
+          <p>Potential profit is unlimited because the option payoff will increase along with the underlying asset price until expiration, and there is theoretically no limit to how high it can go.</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12 outer-column">
+    <div class="card mb-4 rounded-3">
+      <div class="card-header">
+        <h3>Buy put option (short)</h3>
+      </div>
+      <div class="card-body">
+        <img class="obasic" src="images/putlong.jpeg" alt="options-img">
+        <hr>
+        <p class="toppara">If a call option gives the holder the right to purchase the underlying at a set price before the contract expires, a put option gives the holder the right to sell the underlying at a set price.</p>
+        <p>A put option works effectively in the exact opposite direction from the way a call option does, with the put option gaining value as the price of the underlying decreases.</p>
+        <p> The potential loss on a long put is limited to the premium paid for the options. The maximum profit from the position is capped because the underlying price cannot drop below zero.</p>
+      </div>
+    </div>
+  </div> 
+</div>
+
+<!--extra learning points-->
+<ul class="main-box">
+  <li class="box active"><span>Lesson 1</span>
+      <div class="detail active">
+      <p>Options trading may sound risky or complex for beginner investors, and so they often stay away.</p>
+      </div>
+  </li>
+  <li class="box"><span>Lesson 2</span>
+      <div class="detail">
+      <p> Some basic strategies using options, however, can help a novice investor protect their downside and hedge market risk.</p>
+      </div>
+  </li>
+  <li class="box"><span>Lesson 3</span>
+      <div class="detail">
+            <p>The biggest advantage to buying options is that you have great upside potential with losses limited only to the option's premium.</p>
+      </div>
+  </li>
+  <li class="box"><span>Lesson 4</span>
+    <div class="detail">
+          <p>The main disadvantage of options contracts is that they are complex and difficult to price.</p>
+    </div>
+  </li>
+  <li class="box"><span>Lesson 5</span>
+      <div class="detail">
+         <p>Most brokers assign different levels of options trading approval based on the riskiness involved and complexity involved.</p>
+      </div>
+  </li>
+</ul>
+
+<!--Quiz-->
+<div id="web_dev">
+  <a class="btn portbutton btn-lg" href="quiz.html" target="_blank">Start Quiz</a>
+</div>
+
+<!--footer-->
+<section id="footer">
+  <div class="bottom-container">
+    <a class="footer-link soundbuttoni" href="https://www.instagram.com/arjun.sasangan/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    <a class="footer-link soundbuttont" href="https://twitter.com/leearjun" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
+    <a class="footer-link soundbuttonf" href="https://www.facebook.com/lee.sasangan/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+    <p class="copyright">© 2022 Arjun Sasangan.</p>
+    <audio id="mySoundI" src="sounds/instapop.mp3"></audio>
+    <audio id="mySoundF" src="sounds/facepop.wav"></audio>
+    <audio id="mySoundT" src="sounds/twitpop.wav"></audio>
+  </div>
+</section>
+
+<!--fontawesome-->
+<script src="https://kit.fontawesome.com/e420ddd349.js" crossorigin="anonymous"></script>
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<!--custom JS-->
+<script src="shared.js"></script>  
+<script src="trading.js"></script> 
+</body>
+</html>

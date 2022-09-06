@@ -1,0 +1,6 @@
+/* css for calendar */
+.ui-datepicker {
+    width: fit-content;
+    padding: 0.2em 0.2em 0;
+    display: none;
+}
